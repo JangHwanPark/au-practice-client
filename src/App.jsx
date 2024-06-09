@@ -57,6 +57,7 @@ export default function App() {
                     key={index}
                     title={section.title}
                     data={section.data}
+                    className={`grid-item span-${section.span}`}
                 />
             ))}
             <Footer/>

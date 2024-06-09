@@ -1,42 +1,73 @@
-@use "variables";
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.window {
+  border: 2px solid #000;
+  background: linear-gradient(to bottom, #f0f0f0 0%, #d0d0d0 100%);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 
-html,
-body {
-  height: 100%;
-  font-family: variables.$font-stack;
-  background-color: variables.$background-color;
-  color: variables.$primary-color;
-  line-height: 1.5;
+.title-bar {
+  background: linear-gradient(to right, #000080, #0000cd);
+  color: white;
+  font-weight: bold;
 }
 
-// Typography
-h1, h2, h3, h4, h5, h6 {
-  color: variables.$primary-color;
+.title-bar-text {
+  padding: 5px;
+  font-size: 16px;
 }
 
-li, ol, ul {
+.title-bar-controls button {
+  background: white;
+  border: 1px solid #000;
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.title-bar-controls button:hover {
+  background: #c0c0c0;
+}
+
+.window-body {
+  padding: 10px;
+  background: white;
+}
+
+.tree-view {
   list-style: none;
   padding: 0;
 }
 
-a {
-  color: variables.$link-color;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
+.tree-item {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
 }
 
-button {
-  border: none;
-  background: none;
+.tree-item a {
+  text-decoration: none;
+  color: #0000cd;
+}
+
+.tree-item a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  grid-column: span 4;
+}
+
+.grid-item.span-6 {
+  grid-column: span 6;
+}
+
+.grid-item.span-12 {
+  grid-column: span 12;
 }
