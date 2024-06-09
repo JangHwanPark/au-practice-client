@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Jetbrains",
+    "url": "https://www.jetbrains.com/student/"
+  },
+  {
+    "id": 2,
+    "title": "Github Education",
+    "url": "https://education.github.com/pack"
+  },
+  {
+    "id": 3,
+    "title": "Apple 교육 스토어",
+    "url": "https://www.apple.com/kr-edu/shop"
+  },
+  {
+    "id": 4,
+    "title": "삼성 갤럭시 캠퍼스",
+    "url": "https://www.samsung.com/sec/galaxycampus/"
+  },
+  {
+    "id": 5,
+    "title": "Adobe 학생용 Creative Cloud",
+    "url": "https://www.adobe.com/creativecloud/buy/students.html"
+  },
+  {
+    "id": 6,
+    "title": "학생 복지 스토어 (everyuneez)",
+    "url": "https://www.everyuneez.com"
+  }
+]

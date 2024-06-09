@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "www.happyfam.or.kr/ysoh",
+    "url": "http://www.happyfam.or.kr/ysoh"
+  },
+  {
+    "id": 2,
+    "title": "ysoh.tistory.com",
+    "url": "https://ysoh.tistory.com"
+  },
+  {
+    "id": 3,
+    "title": "W3SCHOOLS",
+    "url": "https://www.w3schools.com"
+  },
+  {
+    "id": 4,
+    "title": "MDN(Mozilla)",
+    "url": "https://developer.mozilla.org"
+  },
+  {
+    "id": 5,
+    "title": "생활코딩",
+    "url": "https://opentutorials.org/course/1"
+  },
+  {
+    "id": 6,
+    "title": "위키독스",
+    "url": "https://wikidocs.net"
+  },
+  {
+    "id": 7,
+    "title": "Learn CSS Layout [한글]",
+    "url": "http://learnlayout.com"
+  },
+  {
+    "id": 8,
+    "title": "Adobe Color CC",
+    "url": "https://color.adobe.com"
+  },
+  {
+    "id": 9,
+    "title": "웹표준 [한글]",
+    "url": "https://www.webstandard.org"
+  },
+  {
+    "id": 10,
+    "title": "BootStrap [한글]",
+    "url": "https://getbootstrap.com/docs/4.0/getting-started/introduction/"
+  },
+  {
+    "id": 11,
+    "title": "CSS Deck",
+    "url": "https://cssdeck.com"
+  },
+  {
+    "id": 12,
+    "title": "CODEPEN",
+    "url": "https://codepen.io"
+  }
+]

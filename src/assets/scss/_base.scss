@@ -1,0 +1,38 @@
+@use "variables";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: variables.$font-stack;
+  background-color: variables.$background-color;
+  color: variables.$primary-color;
+  line-height: 1.5;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  color: variables.$primary-color;
+  margin-bottom: 0.5em;
+}
+
+li, ol, ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: variables.$link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

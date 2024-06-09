@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "안산대학교",
+    "url": "https://www.ansan.ac.kr"
+  },
+  {
+    "id": 2,
+    "title": "컴퓨터정보학과",
+    "url": "https://cis.ansan.ac.kr"
+  },
+  {
+    "id": 3,
+    "title": "안산대학교이클래스",
+    "url": "https://eclass.ansan.ac.kr"
+  },
+  {
+    "id": 4,
+    "title": "Microsoft Office 365",
+    "url": "https://www.office.com"
+  }
+]

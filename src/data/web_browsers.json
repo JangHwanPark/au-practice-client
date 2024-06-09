@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Google Chrome",
+    "url": "https://www.google.com/chrome/"
+  },
+  {
+    "id": 2,
+    "title": "Mozilla Firefox",
+    "url": "https://www.mozilla.org/en-US/firefox/new/"
+  },
+  {
+    "id": 3,
+    "title": "Microsoft Edge",
+    "url": "https://www.microsoft.com/edge"
+  },
+  {
+    "id": 4,
+    "title": "Safari",
+    "url": "https://www.apple.com/safari/"
+  }
+]

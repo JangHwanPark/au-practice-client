@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "AWS",
+    "url": "https://aws.amazon.com"
+  },
+  {
+    "id": 2,
+    "title": "Google Cloud",
+    "url": "https://cloud.google.com"
+  },
+  {
+    "id": 3,
+    "title": "Firebase(Google)",
+    "url": "https://firebase.google.com"
+  },
+  {
+    "id": 4,
+    "title": "Naver Cloud",
+    "url": "https://www.ncloud.com"
+  },
+  {
+    "id": 5,
+    "title": "Microsoft Azure",
+    "url": "https://azure.microsoft.com"
+  },
+  {
+    "id": 6,
+    "title": "Heroku",
+    "url": "https://www.heroku.com"
+  }
+]
