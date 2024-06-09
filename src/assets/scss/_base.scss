@@ -20,7 +20,6 @@ body {
 // Typography
 h1, h2, h3, h4, h5, h6 {
   color: variables.$primary-color;
-  margin-bottom: 0.5em;
 }
 
 li, ol, ul {
@@ -35,4 +34,9 @@ a {
   &:hover {
     text-decoration: underline;
   }
+}
+
+button {
+  border: none;
+  background: none;
 }

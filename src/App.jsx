@@ -15,6 +15,8 @@ import referenceSitesData from './data/reference_sites.json';
 import webBrowsersData from './data/web_browsers.json';
 import cmsData from './data/cms.json';
 import etcData from './data/etc.json';
+import Footer from "./components/Footer";
+import GridLayout from "./components/GridLayout";
 
 const sections = [
     { title: "학교사이트", data: schoolData },
@@ -44,7 +46,7 @@ export default function App() {
     };
 
     return (
-        <>
+        <GridLayout>
             <Header
                 isLoggedIn={isLoggedIn}
                 username={username}
@@ -57,6 +59,7 @@ export default function App() {
                     data={section.data}
                 />
             ))}
-        </>
+            <Footer/>
+        </GridLayout>
     );
 }

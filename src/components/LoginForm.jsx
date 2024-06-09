@@ -10,8 +10,8 @@ export default function LoginForm({ onLogin }) {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
-            <section>
+        <form onSubmit={handleSubmit} className="form-auth">
+            <section className="section-login">
                 <label htmlFor="username">아이디</label>
                 <input
                     type="text"
@@ -20,7 +20,7 @@ export default function LoginForm({ onLogin }) {
                     onChange={(e) => setUsername(e.target.value)}
                 />
             </section>
-            <section>
+            <section className="section-login">
                 <label htmlFor="password">비밀번호</label>
                 <input
                     type="password"
@@ -29,8 +29,8 @@ export default function LoginForm({ onLogin }) {
                     onChange={(e) => setPassword(e.target.value)}
                 />
             </section>
-            <div>
-                <button type="submit">로그인</button>
+            <div className="btn-wrapper">
+                <button className="btn-login" type="submit">로그인</button>
             </div>
         </form>
     );
