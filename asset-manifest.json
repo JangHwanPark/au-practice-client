@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/au-practice-client/static/css/main.13cd7147.css",
+    "main.js": "/au-practice-client/static/js/main.36e9f1b3.js",
+    "static/js/453.3a88d312.chunk.js": "/au-practice-client/static/js/453.3a88d312.chunk.js",
+    "static/media/ms_sans_serif.woff": "/au-practice-client/static/media/ms_sans_serif.aac84aa6de42b83d1a62.woff",
+    "static/media/ms_sans_serif_bold.woff": "/au-practice-client/static/media/ms_sans_serif_bold.9fbe71248995f1c639d4.woff",
+    "static/media/ms_sans_serif.woff2": "/au-practice-client/static/media/ms_sans_serif.0348082abb503fb6a8c2.woff2",
+    "static/media/ms_sans_serif_bold.woff2": "/au-practice-client/static/media/ms_sans_serif_bold.7fcf57cc6e87ecddbf64.woff2",
+    "index.html": "/au-practice-client/index.html",
+    "main.13cd7147.css.map": "/au-practice-client/static/css/main.13cd7147.css.map",
+    "main.36e9f1b3.js.map": "/au-practice-client/static/js/main.36e9f1b3.js.map",
+    "453.3a88d312.chunk.js.map": "/au-practice-client/static/js/453.3a88d312.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13cd7147.css",
+    "static/js/main.36e9f1b3.js"
+  ]
+}
